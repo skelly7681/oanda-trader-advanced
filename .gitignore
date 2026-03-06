@@ -1,17 +1,21 @@
-# node
-node_modules
-dist
-.env
+# Node
+frontend/node_modules
+frontend/dist
+frontend/.vite
 
 # .NET
-bin/
-obj/
+**/bin/
+**/obj/
 
-# logs
+# Logs
 *.log
+backend.log
+frontend.log
 
-# mac
+# macOS
 .DS_Store
 
-# secrets
-appsettings.Development.json
+# Secrets / local overrides
+**/appsettings.Development.json
+**/.env
+**/.env.*
