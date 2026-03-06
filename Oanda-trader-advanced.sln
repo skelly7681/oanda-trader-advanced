@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "backend", "backend", "{ADF7AD7E-C03D-4271-93A1-B84E299E1D03}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{5E0A9D84-1B1D-4B52-82F9-816A8AF36F16}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OandaTrader.Tests", "backend\src\OandaTrader.Tests\OandaTrader.Tests.csproj", "{1C2D8484-D380-46CA-B215-58842379F157}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OandaTrader.Application", "backend\src\OandaTrader.Application\OandaTrader.Application.csproj", "{8692BE17-A65C-4644-82BB-D5FC8D817C0F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OandaTrader.Domain", "backend\src\OandaTrader.Domain\OandaTrader.Domain.csproj", "{2DF18974-A762-4F0D-84DC-F4D3FA1F3A75}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OandaTrader.Api", "backend\src\OandaTrader.Api\OandaTrader.Api.csproj", "{B2B432FB-215F-4AF0-931D-9D4CCA8D8965}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OandaTrader.Infrastructure", "backend\src\OandaTrader.Infrastructure\OandaTrader.Infrastructure.csproj", "{557B02EE-44D6-4CEB-AF4B-FF6B899CEB01}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1C2D8484-D380-46CA-B215-58842379F157}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C2D8484-D380-46CA-B215-58842379F157}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C2D8484-D380-46CA-B215-58842379F157}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C2D8484-D380-46CA-B215-58842379F157}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8692BE17-A65C-4644-82BB-D5FC8D817C0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8692BE17-A65C-4644-82BB-D5FC8D817C0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8692BE17-A65C-4644-82BB-D5FC8D817C0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8692BE17-A65C-4644-82BB-D5FC8D817C0F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2DF18974-A762-4F0D-84DC-F4D3FA1F3A75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DF18974-A762-4F0D-84DC-F4D3FA1F3A75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DF18974-A762-4F0D-84DC-F4D3FA1F3A75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DF18974-A762-4F0D-84DC-F4D3FA1F3A75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2B432FB-215F-4AF0-931D-9D4CCA8D8965}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2B432FB-215F-4AF0-931D-9D4CCA8D8965}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2B432FB-215F-4AF0-931D-9D4CCA8D8965}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2B432FB-215F-4AF0-931D-9D4CCA8D8965}.Release|Any CPU.Build.0 = Release|Any CPU
+		{557B02EE-44D6-4CEB-AF4B-FF6B899CEB01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{557B02EE-44D6-4CEB-AF4B-FF6B899CEB01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{557B02EE-44D6-4CEB-AF4B-FF6B899CEB01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{557B02EE-44D6-4CEB-AF4B-FF6B899CEB01}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5E0A9D84-1B1D-4B52-82F9-816A8AF36F16} = {ADF7AD7E-C03D-4271-93A1-B84E299E1D03}
+		{1C2D8484-D380-46CA-B215-58842379F157} = {5E0A9D84-1B1D-4B52-82F9-816A8AF36F16}
+		{8692BE17-A65C-4644-82BB-D5FC8D817C0F} = {5E0A9D84-1B1D-4B52-82F9-816A8AF36F16}
+		{2DF18974-A762-4F0D-84DC-F4D3FA1F3A75} = {5E0A9D84-1B1D-4B52-82F9-816A8AF36F16}
+		{B2B432FB-215F-4AF0-931D-9D4CCA8D8965} = {5E0A9D84-1B1D-4B52-82F9-816A8AF36F16}
+		{557B02EE-44D6-4CEB-AF4B-FF6B899CEB01} = {5E0A9D84-1B1D-4B52-82F9-816A8AF36F16}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {222D734F-4237-482C-BAFC-EC69AE80FAFF}
+	EndGlobalSection
+EndGlobal

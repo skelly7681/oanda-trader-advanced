@@ -1,0 +1,17 @@
+# node
+node_modules
+dist
+.env
+
+# .NET
+bin/
+obj/
+
+# logs
+*.log
+
+# mac
+.DS_Store
+
+# secrets
+appsettings.Development.json

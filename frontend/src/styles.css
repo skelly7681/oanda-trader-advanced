@@ -1,0 +1,119 @@
+:root {
+  color-scheme: dark;
+  font-family: Inter, system-ui, Arial, sans-serif;
+  background: #0b1020;
+  color: #e8edf7;
+}
+
+body, html, #root {
+  margin: 0;
+  min-height: 100%;
+  background: #0b1020;
+}
+
+.app-shell {
+  padding: 24px;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.status {
+  padding: 10px 14px;
+  border-radius: 999px;
+  font-weight: 700;
+}
+
+.status.ok { background: #0f5132; }
+.status.bad { background: #7a1f1f; }
+
+.grid {
+  display: grid;
+  gap: 16px;
+}
+
+.grid.two { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.grid.three { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+.layout-top { grid-template-columns: 2fr 1fr 1fr; }
+.layout-bottom { grid-template-columns: 1.5fr 1fr; }
+
+.card {
+  background: #151d33;
+  border: 1px solid #22304f;
+  border-radius: 16px;
+  padding: 18px;
+  margin-bottom: 16px;
+}
+
+.card h3 { margin-top: 0; }
+.card.danger { border-color: #8f2d2d; }
+
+.price-box {
+  background: #10182c;
+  border-radius: 12px;
+  padding: 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 10px;
+  border-bottom: 1px solid #253453;
+  text-align: left;
+}
+
+button, select {
+  background: #243657;
+  color: white;
+  border: 1px solid #365282;
+  border-radius: 10px;
+  padding: 10px 12px;
+}
+
+button:hover { cursor: pointer; opacity: 0.95; }
+.danger-btn { background: #7a1f1f; border-color: #a13535; }
+.row { display: flex; gap: 12px; }
+
+.log-box {
+  max-height: 280px;
+  overflow: auto;
+  font-family: ui-monospace, SFMono-Regular, monospace;
+  background: #0f1527;
+  border-radius: 12px;
+  padding: 12px;
+}
+
+.chart-placeholder {
+  height: 180px;
+  display: grid;
+  place-items: center;
+  background: linear-gradient(180deg, #0f1830, #121e38);
+  border-radius: 12px;
+  color: #93a6c8;
+}
+
+pre {
+  white-space: pre-wrap;
+  word-break: break-word;
+  background: #0f1527;
+  border-radius: 12px;
+  padding: 12px;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
